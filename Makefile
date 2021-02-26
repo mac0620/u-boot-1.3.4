@@ -141,7 +141,7 @@ ifeq ($(ARCH),ppc)
 CROSS_COMPILE = ppc_8xx-
 endif
 ifeq ($(ARCH),arm)
-CROSS_COMPILE = arm-linux-
+CROSS_COMPILE = arm-unknown-linux-gnueabi-
 endif
 ifeq ($(ARCH),i386)
 CROSS_COMPILE = i386-linux-
